@@ -17,15 +17,15 @@ input=driver.find_element_by_xpath('//*[@id="username"]')
 input.send_keys("naatu123")
 
 input=driver.find_element_by_xpath('//*[@id="passwd"]/div[1]/div/div[1]/input')
-input.send_keys("mosa1@#$")
+input.send_keys("smash1@#$")
 
 input=driver.find_element_by_xpath('//*[@id="confirm-passwd"]/div[1]/div/div[1]/input')
-input.send_keys("mosa1@#$")
+input.send_keys("smash1@#$")
 
 input=driver.find_element_by_xpath('//*[@id="accountDetailsNext"]/div/button/div[3]').click()
 
 input=driver.find_element_by_xpath('//*[@id="phoneNumberId"]')
-input.send_keys("mosa1@#$")
+input.send_keys("smash1@#$")
 
 time.sleep(20)
 
